@@ -7,6 +7,7 @@ import java.util.Stack;
  * @author lynn
  * @date 2020/3/21 - 10:04
  */
+// 输入一个链表，按链表从尾到头的顺序返回一个ArrayList
 public class Solution {
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> list = new ArrayList<>();
