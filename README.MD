@@ -1,4 +1,4 @@
-###从上往下打印出二叉树的每个节点，同层节点从左至右打印。
+### 从上往下打印出二叉树的每个节点，同层节点从左至右打印。
 ```java
 public class TreePrintFromTopToBottom {
     public ArrayList<Integer> printFromTopToBottom(TreeNode root) {
@@ -23,7 +23,7 @@ public class TreePrintFromTopToBottom {
     }
 }
 ```
-###用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
+### 用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
 ```java
 public class queueDemo {
     Stack<Integer> stack1 = new Stack<Integer>();
