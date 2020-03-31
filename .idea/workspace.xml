@@ -4,7 +4,8 @@
     <list default="true" id="a8e895b1-a659-4c42-a763-44fcdb4d715d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wu/print_list_from_tail_to_head/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wu/print_list_from_tail_to_head/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wu/f_ind_Kth_to_tail/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wu/find_Kth_to_tail/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wu/tree_print_from_top_to_bottom/TreePrintFromTopToBottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wu/tree_print_from_top_to_bottom/TreePrintFromTopToBottom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,26 +16,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wu/f_ind_Kth_to_tail/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="9" selection-end-line="37" selection-end-column="1" />
-              <folding>
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#340#341#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="42">
-                <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+              <first_editor relative-caret-position="126">
+                <caret line="153" column="27" lean-forward="true" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
                 <folding>
+                  <element signature="e#62#71#0" expanded="true" />
+                  <element signature="e#112#121#0" expanded="true" />
                   <element signature="e#156#157#0" expanded="true" />
                   <element signature="e#189#190#0" expanded="true" />
                   <element signature="e#76#77#0" expanded="true" />
@@ -47,32 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wu/replace_space/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/com/wu/more_than_half_num/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
-              <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/StringBuffer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="453" column="19" lean-forward="true" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/AbstractStringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="821" column="33" selection-start-line="821" selection-start-column="33" selection-end-line="821" selection-end-column="33" />
+            <state relative-caret-position="465">
+              <caret line="42" lean-forward="true" selection-start-line="12" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -101,12 +69,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/wu/TreePrintFromTopToBottom.java" />
-        <option value="$PROJECT_DIR$/src/com/wu/tree_print_from_top_to_bottom/TreePrintFromTopToBottom.java" />
         <option value="$PROJECT_DIR$/src/com/wu/stack_to_queue/queueDemo.java" />
         <option value="$PROJECT_DIR$/src/com/wu/f_ind_Kth_to_tail/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/wu/replace_space/Replace.java" />
         <option value="$PROJECT_DIR$/src/com/wu/print_list_from_tail_to_head/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/wu/reverse_list/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/wu/replace_space/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/wu/tree_print_from_top_to_bottom/TreePrintFromTopToBottom.java" />
+        <option value="$PROJECT_DIR$/src/com/wu/more_than_half_num/Solution.java" />
         <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
@@ -143,8 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,35 +138,12 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="wu" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="剑指offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="剑指offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wu" type="462c0819:PsiDirectoryNode" />
-              <item name="f_ind_Kth_to_tail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="剑指offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="剑指offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wu" type="462c0819:PsiDirectoryNode" />
-              <item name="f_ind_Kth_to_tail" type="462c0819:PsiDirectoryNode" />
-              <item name="Solution.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="剑指offer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="剑指offer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="wu" type="462c0819:PsiDirectoryNode" />
-              <item name="replace_space" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,8 +152,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584788350129" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585627793076" />
+    <property name="last_opened_file_path" value="D:/java学习/springboot实战/blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -225,9 +170,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Solution (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wu.more_than_half_num.Solution" />
+      <module name="剑指offer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wu.more_than_half_num.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,9 +270,11 @@
       <item itemvalue="JUnit.queueDemo.test" />
       <item itemvalue="JUnit.queueDemo" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.queueDemo.test" />
         <item itemvalue="JUnit.queueDemo" />
@@ -333,7 +294,11 @@
       <workItem from="1584683038697" duration="3062000" />
       <workItem from="1584753940155" duration="567000" />
       <workItem from="1584754653650" duration="5720000" />
-      <workItem from="1584772809466" duration="5341000" />
+      <workItem from="1584772809466" duration="5986000" />
+      <workItem from="1584793595712" duration="1490000" />
+      <workItem from="1584795144071" duration="646000" />
+      <workItem from="1584956780917" duration="3995000" />
+      <workItem from="1585621987641" duration="3413000" />
     </task>
     <servers />
   </component>
@@ -370,13 +335,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14690000" />
+    <option name="totallyTimeSpent" value="24879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="832" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -385,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298969" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,18 +377,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wu/replace_space/Solution.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -432,59 +385,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wu/tree_print_from_top_to_bottom/TreePrintFromTopToBottom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="26" column="17" selection-start-line="11" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wu/stack_to_queue/queueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="34" column="33" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wu/replace_space.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wu/replace_space/Replace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/replace_space.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wu/replace_space/Replace.java" />
     <entry file="file://$PROJECT_DIR$/src/com/wu/print_list_from_tail_to_head/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-375">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wu/f_ind_Kth_to_tail/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="9" selection-end-line="37" selection-end-column="1" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -496,37 +411,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="453" column="19" lean-forward="true" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/f_ind_Kth_to_tail/Solution.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/AbstractStringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
+        <state relative-caret-position="22092">
           <caret line="821" column="33" selection-start-line="821" selection-start-column="33" selection-end-line="821" selection-end-column="33" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/lang/StringBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11648">
+          <caret line="453" column="19" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/reverse_list/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/com/wu/replace_space/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="532">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/tree_print_from_top_to_bottom/TreePrintFromTopToBottom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="42" column="1" selection-start-line="11" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="483" column="52" lean-forward="true" selection-start-line="483" selection-start-column="52" selection-end-line="483" selection-end-column="52" />
           <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#19296#19297#0" expanded="true" />
+            <element signature="e#19379#19380#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+          <folding>
+            <element signature="e#3709#3710#0" expanded="true" />
+            <element signature="e#3746#3747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/more_than_half_num/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" lean-forward="true" selection-start-line="12" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="42">
-            <caret line="100" column="1" lean-forward="true" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <first_editor relative-caret-position="126">
+            <caret line="153" column="27" lean-forward="true" selection-start-line="153" selection-start-column="27" selection-end-line="153" selection-end-column="27" />
             <folding>
+              <element signature="e#62#71#0" expanded="true" />
+              <element signature="e#112#121#0" expanded="true" />
               <element signature="e#156#157#0" expanded="true" />
               <element signature="e#189#190#0" expanded="true" />
               <element signature="e#76#77#0" expanded="true" />

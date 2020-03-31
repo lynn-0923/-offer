@@ -24,7 +24,7 @@ public class TreePrintFromTopToBottom {
             if (node.left != null) {
                 queue.add(node.left);
             }
-            if (node.left!= null) {
+            if (node.right!= null) {
                 queue.add(node.right);
             }
         }

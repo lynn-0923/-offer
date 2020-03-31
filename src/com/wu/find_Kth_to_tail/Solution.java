@@ -1,6 +1,4 @@
-package com.wu.f_ind_Kth_to_tail;
-
-import org.junit.Test;
+package com.wu.find_Kth_to_tail;
 
 /**
  * @author lynn
