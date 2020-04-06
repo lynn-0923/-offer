@@ -164,3 +164,100 @@ public class Solution {
     }
 }
 ```
+###在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+#####方式一
+```java
+public class Solution {
+    public static boolean find(int target, int[][] array) {
+
+        int find = -1;
+        boolean flag = false;
+        for (int i = 0; i < array.length; i++) {
+            int[] arr = array[i];
+            find = Arrays.binarySearch(arr, target);
+            if (find >= 0) {
+                if (array[i][find] == target) {
+                    flag = true;
+                    break;
+                }
+            }
+        }
+        if (flag) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static void main(String[] args) {
+        int[][] arr = new int[][]{{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
+
+        boolean b = find(5, arr);
+        System.out.println(b);
+    }
+}
+```
+#####方式二
+```java
+public class Solution {
+    public static boolean find(int target, int[][] array) {
+        int m, n, x, y;
+        m = array.length;//行数
+        n = array[0].length;//列数
+        x = m - 1;
+        y = 0;//坐标定在左下角
+        while (x >= 0 && y <= n - 1) {
+            if (target < array[x][y]) {
+                x--;//遇小上移
+            } else if (target > array[x][y]) {
+                y++;//遇大右移
+            } else {
+                return true;
+            }
+        }
+        return false;
+    }
+}
+```
+
+###把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
+  #####输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。
+  
+####分析：
+    二分查找变种，没有具体的值用来比较。那么用中间值和高低位进行比较，看处于递增还是递减序列，进行操作缩小范围。
+    处于递增：low上移
+    处于递减：high下移（如果是high-1，则可能会错过最小值，因为找的就是最小值）
+    其余情况：low++缩小范围
+   
+```java
+public class Solution {
+    public static int minNumberInRotateArray(int[] array) {
+        if (array == null || array.length == 0) {
+            return 0;
+        }
+        int low = 0;
+        int high = array.length - 1;
+        int mid = 0;
+        while (low < high){
+            if (array[low] < array[high]){
+                return array[low];
+            }
+            mid = low + (high - low) / 2;
+            if (array[mid] > array[low]){
+                low = mid + 1;
+            }else if(array[mid] < array[high]){
+                  high = mid;
+            }else {
+                low++;
+            }
+        }
+        return array[low];
+    }
+
+    public static void main(String[] args) {
+        int arr[] = {3, 4, 5, 1, 2};
+        int i = minNumberInRotateArray(arr);
+        System.out.println(i);
+    }
+}
+```
