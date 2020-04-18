@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8e895b1-a659-4c42-a763-44fcdb4d715d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/wu/number_of_1/Solution.java">
+        <entry file="file://$PROJECT_DIR$/src/com/wu/power/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="101">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -27,8 +26,16 @@
         <entry file="file://$PROJECT_DIR$/README.MD">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="280">
-                <caret line="362" lean-forward="true" selection-start-line="362" selection-end-line="362" />
+              <first_editor relative-caret-position="308">
+                <caret line="393" selection-start-line="393" selection-end-line="393" />
+                <folding>
+                  <element signature="e#156#157#0" expanded="true" />
+                  <element signature="e#189#190#0" expanded="true" />
+                  <element signature="e#76#77#0" expanded="true" />
+                  <element signature="e#137#138#0" expanded="true" />
+                  <element signature="e#1052#1053#0" expanded="true" />
+                  <element signature="e#1075#1076#0" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -74,8 +81,9 @@
         <option value="$PROJECT_DIR$/src/com/wu/jumpfloor/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/wu/jump_floorII/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/wu/rectcover/Solution.java" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/src/com/wu/number_of_1/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/wu/power/Solution.java" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -150,7 +158,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587176567816" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587213407603" />
     <property name="last_opened_file_path" value="D:/java学习/springboot实战/blog" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -168,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution (1)">
+  <component name="RunManager" selected="Application.Solution (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -189,13 +197,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wu.min_number_in_rotate_array.Solution" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wu.power.Solution" />
       <module name="剑指offer" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wu.min_number_in_rotate_array.*" />
+          <option name="PATTERN" value="com.wu.power.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,19 +283,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
       <item itemvalue="Application.Solution (5)" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution (2)" />
         <item itemvalue="Application.Solution (1)" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
-        <item itemvalue="Application.Solution (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +325,7 @@
       <workItem from="1587030639559" duration="1889000" />
       <workItem from="1587096576274" duration="1060000" />
       <workItem from="1587130106035" duration="597000" />
-      <workItem from="1587173439346" duration="2453000" />
+      <workItem from="1587173439346" duration="6856000" />
     </task>
     <servers />
   </component>
@@ -354,13 +362,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49985000" />
+    <option name="totallyTimeSpent" value="54388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23123324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29489052" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29489052" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35474452" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -561,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wu/re_ronstruct_binary_tree/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wu/jumpfloor/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -584,25 +585,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wu/rectcover/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
+        <state relative-caret-position="168">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/number_of_1/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wu/re_ronstruct_binary_tree/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.MD">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="280">
-            <caret line="362" lean-forward="true" selection-start-line="362" selection-end-line="362" />
+          <first_editor relative-caret-position="308">
+            <caret line="393" selection-start-line="393" selection-end-line="393" />
+            <folding>
+              <element signature="e#156#157#0" expanded="true" />
+              <element signature="e#189#190#0" expanded="true" />
+              <element signature="e#76#77#0" expanded="true" />
+              <element signature="e#137#138#0" expanded="true" />
+              <element signature="e#1052#1053#0" expanded="true" />
+              <element signature="e#1075#1076#0" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wu/number_of_1/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wu/power/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="101">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
