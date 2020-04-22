@@ -433,3 +433,32 @@ public class Solution {
     }
 }
 ```
+### 输入一个链表，反转链表后，输出新链表的表头。
+```java
+public class Solution {
+    public static ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null){
+            return head;
+        }
+
+        //定义一个辅助的指针，帮助遍历原来的链表
+        ListNode cur = head;
+        //存放cur的下一个节点，方便后移
+        ListNode next = null;
+        ListNode newNode = new ListNode(0);
+        while (cur != null){
+            //临时存放
+            next = cur.next;
+            //将cur的下一个节点指向新链表的最前端
+            cur.next = newNode.next;
+            //将cur存放在新链表上
+            newNode.next = cur;
+            //指向下一个节点
+            cur = next;
+        }
+        //反转链表
+        head = newNode.next;
+        return head;
+    }
+}
+```
