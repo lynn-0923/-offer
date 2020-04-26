@@ -633,3 +633,135 @@ public class Solution {
     }
 }
 ```
+### 定义栈的数据结构，请在该类型中实现一个能够得到栈中所含最小元素的min函数（时间复杂度应为O（1））。注意：保证测试中不会当栈为空的时候，对栈调用pop()或者min()或者top()方法。
+```java
+public class Solution {
+
+    Stack<Integer> stack = new Stack<>();
+    Stack<Integer> minStack = new Stack<>();
+
+    public void push(int node) {
+        stack.push(node);
+        if (minStack.isEmpty()) {
+            minStack.push(node);
+        } else {
+            if (minStack.peek() > node) {
+                minStack.push(node);
+            } else {
+                minStack.push(minStack.peek());
+            }
+        }
+    }
+
+    public void pop() {
+        stack.pop();
+        minStack.pop();
+    }
+
+    public int top() {
+        return stack.peek();
+    }
+
+    public int min() {
+        return minStack.peek();
+    }
+}
+```
+### 输入两个整数序列，第一个序列表示栈的压入顺序，请判断第二个序列是否可能为该栈的弹出顺序。
+#### 假设压入栈的所有数字均不相等。例如序列1,2,3,4,5是某栈的压入顺序，序列4,5,3,2,1是该压栈序列对应的一个弹出序列， 但4,3,5,1,2就不可能是该压栈序列的弹出序列。（注意：这两个序列的长度是相等的）
+```java
+public class Solution {
+    public static boolean isPopOrder(int[] pushA, int[] popA) {
+
+        if (pushA.length == 0 || popA.length == 0 || popA.length != pushA.length) {
+            return false;
+        }
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0, j = 0; i < pushA.length; i++) {
+            stack.push(pushA[i]);
+            while (!stack.isEmpty() && stack.peek() == popA[j]) {
+                stack.pop();
+                j++;
+            }
+        }
+        return stack.isEmpty();
+    }
+}
+```
+### 输入一个非空整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。如果是则输出Yes,否则输出No。假设输入的数组的任意两个数字都互不相同。
+```java
+public class Solution {
+    public boolean VerifySquenceOfBST(int[] sequence) {
+        if (sequence.length == 0 || sequence == null) {
+            return false;
+        }
+        return verify(sequence, 0, sequence.length - 1);
+    }
+
+    private boolean verify(int[] sequence, int start, int end) {
+        if (start >= end) {
+            //判断结束
+            return true;
+        }
+        //用于判断，因为后序遍历为左右根
+        int val = sequence[end];
+        int i;
+        for (i = start; i < end; i++) {
+            if (sequence[i] > val) {
+                break;
+            }
+        }
+        //判断右子树是否有小于val的值
+        for (int j = i; j < end; j++) {
+            if (sequence[j] < val) {
+                return false;
+            }
+        }
+        //递归判断
+        if (start == i) {
+            return verify(sequence, start, end - 1);
+        }
+        return verify(sequence, start, i - 1) && verify(sequence, i, end - 1);
+    }
+}
+```
+### 输入一颗二叉树的根节点和一个整数，打印出二叉树中结点值的和为输入整数的所有路径。
+#### 路径定义为从树的根结点开始往下一直到叶结点所经过的结点形成一条路径。(注意: 在返回值的list中，数组长度大的数组靠前)
+```java
+public class Solution {
+
+    private ArrayList<ArrayList<Integer>> resultList = new ArrayList();
+    private ArrayList<Integer> list = new ArrayList();
+    public  ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+        if (root == null) {
+            return resultList;
+        }
+        list.add(root.val);
+        if (root.val == target && root.left == null && root.right == null) {
+            resultList.add(new ArrayList<>(list));
+        }
+        if (target > root.val) {
+            if (root.left != null) {
+                FindPath(root.left, target - root.val);
+                //如果遍历到最后还没有，则进行回溯，类似于深度优先遍历
+                list.remove(list.size() - 1);
+            }
+            if (root.right != null) {
+                FindPath(root.right, target - root.val);
+                list.remove(list.size() - 1);
+            }
+        }
+        return resultList;
+    }
+}
+
+class TreeNode {
+    int val = 0;
+    TreeNode left = null;
+    TreeNode right = null;
+
+    public TreeNode(int val) {
+        this.val = val;
+    }
+}
+```
